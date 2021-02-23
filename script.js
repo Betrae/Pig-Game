@@ -45,6 +45,7 @@ const switchPlayer = function() {
         activePlayer = activePlayer === 0 ? 1 : 0;
         player0El.classList.toggle('player--active');
         player1El.classList.toggle('player--active');
+        
 }
 
 // Rolling dice function
